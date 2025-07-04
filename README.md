@@ -38,4 +38,6 @@ OpenAI에서 돈 더 내라고 할듯 <br>
 혼자 끙끙거리다가 문득 생각이 났따.
 중학교 2학년 때, 같은 방식으로 일반화를 시도헀지만 이 역할을 하는 함수가 있고, 그걸 사용해야 하는 것, 즉, 지금 내 상황은 함수를 모르는 무지의 영역이라고 판단했다. <br>
 ![image](https://github.com/user-attachments/assets/543dccb2-17ec-4310-ab48-30440d743e06)<br> 빙고<br>
+![image](https://github.com/user-attachments/assets/f4ab8cb4-6385-41e7-8bda-bdeffde7bab2)<br>
+
 
