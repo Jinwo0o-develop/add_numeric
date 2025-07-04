@@ -15,5 +15,10 @@ Java와 C언어를 공부할 때는 자료형 선언에 신경썻는데 파이�
 그럼 실수가 아닌 정수는 int 자료형으로 자동으로 지정이 되어있는건가? 또, int라면 21억이 22억으로 넘어가면 자동으로 더 큰 자료형으로 변환해주는건가 ?<br>
 많이 큰 수가 필요없다면 short처럼 짧은 자료형을 쓰는 것이 **저장효율**면에서 좋을 것 같은데, 그런 선택지는 없을까?<br>
 애초에 짧은 자료형을 쓰는게 좋을까? <br>
-![GPT한테 물어보았다.](https://github.com/user-attachments/assets/acc2056f-6db0-42ae-9f30-f22098fdcfd5)
-![image](https://github.com/user-attachments/assets/d1476d83-ac6b-4408-a21a-22eab1376183)
+![GPT한테 물어보았다.](https://github.com/user-attachments/assets/acc2056f-6db0-42ae-9f30-f22098fdcfd5)<br>
+**자동으로 처리해준다고는 생각했지만 파이썬의 int가 다르다는건 진짜 생각조차 못하고 처음알았다.<br>**
+![image](https://github.com/user-attachments/assets/d1476d83-ac6b-4408-a21a-22eab1376183)<br>
+즉, 크기에 따라 자동으로 메모리를 할당한다는 건데, 변수 a에 4를 선언했다고 했을 떄, int는 4바이트(32비트)지만 4를 표현할 때 1바이트면 충분하니 1바이트로 할당 할까 ? <br>
+**GPT**에게 물어보니 "Python의 int는 PyLongObject라는 구조체로 구현되어 있는데, 숫자 자체뿐만 아니라, 참조 카운트, 타입 정보 등 부가 정보까지 포함한 구조이기 떄문에, 작은 정수라도 28바이트 정도를 사용함." 이라는 답변을 받았다.<br>
+결국 이해할라면 PyLong0bject를 알아야 하는 것이므로, 나중에 알아보아야겠다.<br>
+아무튼, 다시 본론으로 돌아와서 방법은 numpy를 사용하는 방법, struct 모듈로 바이트 단위 저장이 있다고 한다.<br>
