@@ -29,15 +29,20 @@ Java와 C언어를 공부할 때는 자료형 선언에 신경썻는데 파이�
 ![image](https://github.com/user-attachments/assets/631d7962-dd64-47f6-9815-ca06680c36fb)<br>
 Numpy는 **작은 값이더라도 속도보다 공간에 초점을 맞춘 설계**이기 때문에 CPU 입장에서 입출력은 느리다고 한다.<br>
 나중에 내가 원하는 코드를 술술 풀어낼 수 있을 실력을 갖게되면 직접 실험해봐야겠다.<br>
-지금이야 이렇게 코치코치 캐물어보는 호기심때문에 GPT의 수혜를 많이 받지만, GPT도 틀릴 수 있다는 것을 염려하게 되네요.<br>
+지금이야 이렇게 코치코치 캐물어보는 호기심때문에 GPT의 수혜를 많이 받지만, GPT도 틀릴 수 있다는 걸 염려하게 돼여.<br>
 OpenAI에서 돈 더 내라고 할듯 <br>
-좀 괘씸한가 <br>
+멋대로 막 써놓고 비판하는건 좀 괘씸한가 <br>
 이번에는 12에 국한하지 말고, 임의의 원하는 두 숫자를 더해보기로 했다.<br>
 ![image](https://github.com/user-attachments/assets/f20864a5-e390-4773-af4b-923d3ce3295d)<br>
 저번에 코드잇에서 강의를 듣고 풀어본 노하우가 생각나 함수로써 손쉽게 하나를 풀었지만, 내가 함수 만드는 걸 몰랐다면? -> 함수를 쓰지 않고 풀 방법은 없을까 하고 찾아보기로 했다.<br>
-혼자 끙끙거리다가 문득 생각이 났따.
+혼자 끙끙거리다가 문득 생각이 났다.<br>
 중학교 2학년 때, 같은 방식으로 일반화를 시도헀지만 이 역할을 하는 함수가 있고, 그걸 사용해야 하는 것, 즉, 지금 내 상황은 함수를 모르는 무지의 영역이라고 판단했다. <br>
 ![image](https://github.com/user-attachments/assets/543dccb2-17ec-4310-ab48-30440d743e06)<br> 빙고<br>
 ![image](https://github.com/user-attachments/assets/f4ab8cb4-6385-41e7-8bda-bdeffde7bab2)<br>
-
-
+바로 사용법만 익힌 후 코드에 사용해봤다.<br>
+![image](https://github.com/user-attachments/assets/262cba00-f924-4dc0-a2ff-00b2b9c5c667)<br>
+![일반화_숫자더하기_결과 (1)](https://github.com/user-attachments/assets/f0ed7b05-fe2d-4709-a484-670145be9ae8)<br>
+input 함수는 문자열로 반환 똑같이 int로 바꾸어줬다.<br>
+![일반화_숫자더하기_결과 (2)](https://github.com/user-attachments/assets/151d3294-5e72-4dc6-87b8-378d1f75d9e9)<br>
+이렇게 숫자를 정해서 더하는 딱딱한 프로그램에서 좀 더 유연한 코드까지 해봤습니다! <br>
+다 작성하고 보니 숫자 더하는거 가지고 혼자 잘 놀았다 싶네여<br>
