@@ -15,4 +15,4 @@ Java와 C언어를 공부할 때는 자료형 선언에 신경썻는데 파이�
 그럼 실수가 아닌 정수는 int 자료형으로 자동으로 지정이 되어있는건가? 또, int라면 21억이 22억으로 넘어가면 자동으로 더 큰 자료형으로 변환해주는건가 ?<br>
 많이 큰 수가 필요없다면 short처럼 짧은 자료형을 쓰는 것이 저장효율면에서 좋을 것 같은데, 그런 선택지는 없을까?<br>
 애초에 짧은 자료형을 쓰는게 좋을까? <br>
-![image](https://github.com/user-attachments/assets/acc2056f-6db0-42ae-9f30-f22098fdcfd5)
+![GPT한테 물어보았다.](https://github.com/user-attachments/assets/acc2056f-6db0-42ae-9f30-f22098fdcfd5)
